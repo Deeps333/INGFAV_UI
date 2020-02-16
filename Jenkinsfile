@@ -3,7 +3,7 @@ pipeline {
 	stages {
       stage('SCM Checkout') {
          steps {
-            git 'https://github.com/Deeps333/INGFAV_UI/new/master'
+            git 'https://github.com/Deeps333/INGFAV_UI/new/master.git'
 		}
 	}
 	stage('Build') {
